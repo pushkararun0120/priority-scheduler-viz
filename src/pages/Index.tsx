@@ -81,9 +81,6 @@ const Index = () => {
               Priority Scheduler
             </h1>
           </div>
-          <p className="text-lg text-white/90">
-            Non-Preemptive Priority Scheduling Simulator
-          </p>
         </header>
 
         {/* Input Section */}
