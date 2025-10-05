@@ -4,6 +4,8 @@ import { Input } from "@/components/ui/input";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Label } from "@/components/ui/label";
 import { Calculator } from "lucide-react";
+import PreemptiveScheduler from "@/components/PreemptiveScheduler";
+import { Separator } from "@/components/ui/separator";
 
 interface Process {
   id: string;
@@ -243,6 +245,12 @@ const Index = () => {
             </Card>
           </div>
         )}
+
+        {/* Separator */}
+        <Separator className="my-12 bg-border/50" />
+
+        {/* Preemptive Scheduler Section */}
+        <PreemptiveScheduler />
       </div>
     </div>
   );
